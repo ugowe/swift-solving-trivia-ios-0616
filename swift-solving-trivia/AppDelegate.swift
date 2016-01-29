@@ -18,34 +18,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     */
     
-    func solveTrivia(statesAndCapitals : [String: String]) -> String {
-        
-        var answer = ""
-        
-        for (state, capital) in statesAndCapitals {
-            
-            let aState = state.lowercaseString
-            let aCapital = capital.lowercaseString
-            
-            var match = false
-            for stateCharacter in aState.characters {
-                for capitalCharacter in aCapital.characters {
-                    if stateCharacter == capitalCharacter {
-                        match = true
-                    }
-                }
-            }
-            if !match {
-                
-                answer = state
-                
-            }
-            
-        }
-        
-        return answer
-        
-    }
-    
 
 }
