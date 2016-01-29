@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0271525D841B360C8F7198B0 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
-		249C0AEE35D4F9EE24419390 /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		249C0AEE35D4F9EE24419390 /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		2512F1B87E12080D01A4FD67 /* Pods-UnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.release.xcconfig"; sourceTree = "<group>"; };
 		3831F90641557CCE35796522 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41BAA7AF8EE504E82BBDBC48 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,7 +42,7 @@
 		930D367A53E9B8A4D16227FA /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96F162B1012EE6C09655E127 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		C567EC9CC5919635FA7266AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		FD55C9100DBCACAC764A1B58 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FD55C9100DBCACAC764A1B58 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +68,8 @@
 		08E0EAFB08206A6BD4339E75 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				249C0AEE35D4F9EE24419390 /* ViewController.swift */,
+				FD55C9100DBCACAC764A1B58 /* Main.storyboard */,
 				8637146C67638CF737BE0CAF /* Images.xcassets */,
 				96F162B1012EE6C09655E127 /* LaunchScreen.xib */,
 				416D1ACF0FA8F6526E4E7F57 /* Other-Sources */,
@@ -126,8 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				930D367A53E9B8A4D16227FA /* AppDelegate.swift */,
-				249C0AEE35D4F9EE24419390 /* ViewController.swift */,
-				FD55C9100DBCACAC764A1B58 /* Main.storyboard */,
 				08E0EAFB08206A6BD4339E75 /* Resources */,
 			);
 			path = "swift-solving-trivia";

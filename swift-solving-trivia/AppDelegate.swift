@@ -12,7 +12,13 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
-    func solveTrivia(statesAndCapitals : [String : String]) -> String {
+    /*
+
+    write your function here
+
+    */
+    
+    func solveTrivia(statesAndCapitals : [String: String]) -> String {
         
         var answer = ""
         
@@ -22,9 +28,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let aCapital = capital.lowercaseString
             
             var match = false
-            for stateChar in aState.characters {
-                for capitalChar in aCapital.characters {
-                    if stateChar == capitalChar {
+            for stateCharacter in aState.characters {
+                for capitalCharacter in aCapital.characters {
+                    if stateCharacter == capitalCharacter {
                         match = true
                     }
                 }
@@ -40,4 +46,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return answer
         
     }
+    
+
 }
