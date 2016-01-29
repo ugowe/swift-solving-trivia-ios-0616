@@ -2,7 +2,7 @@
 
 ## Objectives
 
-1. Write a function that uses control flow statements.
+Write a function that uses control flow statements.
 
 ## Instructions
 
