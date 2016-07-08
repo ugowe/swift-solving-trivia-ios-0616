@@ -23,9 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         for (state, capital) in statesAndCapitals {
             
-            let stateArray = Set(state.lowercaseString.characters).sort()
-            let capitalArray = Set(capital.lowercaseString.characters).sort()
-            isMatch = (stateArray.map { capitalArray.contains($0) }).contains(true)
+            let stateSet = Set(state.lowercaseString.characters).sort()
+            let capitalSet = Set(capital.lowercaseString.characters).sort()
+            isMatch = (stateSet.map { capitalSet.contains($0) }).contains(true)
             
             if !isMatch {
                 
