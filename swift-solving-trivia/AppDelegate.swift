@@ -72,8 +72,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func solveTrivia(statesAndCaps: [String: String]) -> String {
         var solution : String = ""
-//        let state = ""
-//        let capital = ""
+
         for (state, capital) in statesAndCaps {
             
             var matchFound = false
